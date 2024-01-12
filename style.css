@@ -1,0 +1,110 @@
+
+body{
+    background-color: rgb(248, 233, 214);
+    font-family:'Luxurious Roman';
+    padding-left: 200px;
+}
+
+.titulo{
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Mountains of Christmas';
+    margin-bottom: 20px;
+}
+
+.subtitulo{
+    color: rgb(58, 12, 12);
+    font-size: 32px;
+    margin: 20px 0px;
+}
+
+.texto_duvida{
+    color: rgb(58, 12, 12);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+.prato_nome{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(38, 71, 38);
+}
+
+.imagem_banner{
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    padding: 5px;
+    max-width: 20vw;
+}
+
+.imagem_banner:hover {
+    transform: scale(1.03);
+}
+
+.menu_superior{
+    background-color:#f7efe4;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.menu_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu_item{
+    color: #eb5447;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu_item:hover {
+    background-color: #eb4f37;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.ingredientes{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.lista_passos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.passo_imagem{
+    max-width: 400px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.passo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f7efe4;
+    max-width: 50vw;
+    border-radius: 20px;
+}
+
+.lista_dicas{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;    
+}
